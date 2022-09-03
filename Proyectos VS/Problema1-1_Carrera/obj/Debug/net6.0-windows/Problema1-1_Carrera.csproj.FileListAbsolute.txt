@@ -1,0 +1,104 @@
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.AssemblyReference.cache
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.GenerateResource.cache
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.GeneratedMSBuildEditorConfig.editorconfig
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.AssemblyInfoInputs.cache
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.AssemblyInfo.cs
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.CoreCompileInputs.cache
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.exe
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.deps.json
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.runtimeconfig.json
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.dll
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.pdb
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+I:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.CopyComplete
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.dll
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\refint\Problema1-1_Carrera.dll
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.pdb
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.genruntimeconfig.cache
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\ref\Problema1-1_Carrera.dll
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Properties.Resources.resources
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.exe
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.deps.json
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.runtimeconfig.json
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.dll
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.pdb
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.AssemblyReference.cache
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Properties.Resources.resources
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.GenerateResource.cache
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.AssemblyInfoInputs.cache
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.AssemblyInfo.cs
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.CoreCompileInputs.cache
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.CopyComplete
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.dll
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\refint\Problema1-1_Carrera.dll
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.pdb
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.genruntimeconfig.cache
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\ref\Problema1-1_Carrera.dll
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.Menu.resources
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.exe
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.deps.json
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.runtimeconfig.json
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.dll
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.pdb
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.AssemblyReference.cache
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.Menu.resources
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Properties.Resources.resources
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.GenerateResource.cache
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.AssemblyInfoInputs.cache
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.AssemblyInfo.cs
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.CoreCompileInputs.cache
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.CopyComplete
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.dll
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\refint\Problema1-1_Carrera.dll
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.pdb
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.genruntimeconfig.cache
+D:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\ref\Problema1-1_Carrera.dll
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.Menu.resources
+I:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.Buscar.resources
+E:\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.Buscar.resources
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.exe
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.deps.json
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.runtimeconfig.json
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.dll
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.pdb
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.AssemblyReference.cache
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.Buscar.resources
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.Menu.resources
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Properties.Resources.resources
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.GenerateResource.cache
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.AssemblyInfoInputs.cache
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.AssemblyInfo.cs
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.CoreCompileInputs.cache
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.CopyComplete
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.dll
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\refint\Problema1-1_Carrera.dll
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.pdb
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.genruntimeconfig.cache
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\ref\Problema1-1_Carrera.dll
+C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.frmAlta.resources

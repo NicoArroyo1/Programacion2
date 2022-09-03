@@ -1,0 +1,21 @@
+Problema 1.1:
+Carrera. Desarrollar un programa que permita registrar los planes de estudio 
+asociados a las carreras dictadas por una universidad. El modelo de objetos 
+sugerido se muestra a continuación:
+- Solo es necesario gestionar carreras con sus detalles de asignaturas 
+(planes), las asignaturas deberían estar disponibles al lanzar la 
+aplicación.
+- Deberá controlar que una misma materia no puede agregarse más de 
+una vez como detalle de carrera.
+
+
+Instalar MS Visual Studio 2022 con los componentes para desarrollo Windows y Web
+Seleccionar  un problema de la Guía de Trabajos Prácticos: (del 1.1  a 1.6): 
+Crear modelo de datos (base de datos) junto con un SP para consulta con filtros. 
+Desarrollar GUI con uso de componente List
+
+
+Completar problema seleccionado la semana anterior: 
+Rediseñar consulta para trabajar con componente DataGridView
+Crear pantalla de alta. 
+Desarrollar SP para inserción M/D y utilizar los componentes ADO.NET desde C#
