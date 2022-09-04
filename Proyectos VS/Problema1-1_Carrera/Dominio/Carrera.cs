@@ -6,18 +6,17 @@ using System.Threading.Tasks;
 
 namespace Problema1_1_Carrera.Dominio
 {
-    internal class Carrera
+    public class Carrera
     {
-        public string Nombre { get; set; }
+        public int IdCarrera { get; set; }
 
-        public string Titulo { get; set; }
+        public string Nombre { get; set; }
 
         public List<DetalleCarrera> Detalles { get; }
 
-        public Carrera(string nombre, string titulo)
+        public Carrera(string nombre)
         {
             Nombre = nombre;
-            Titulo = titulo;
             Detalles = new List<DetalleCarrera>();
         }
 
@@ -34,7 +33,7 @@ namespace Problema1_1_Carrera.Dominio
 
         public override string ToString()
         {
-            return Nombre + " | " + Titulo + "\n" + Detalles.ToString();
+            return Nombre + " | " + "\n" + Detalles.ToString();
         }
     }
 }

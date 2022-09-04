@@ -1,4 +1,5 @@
 ﻿using Problema1_1_Carrera.Datos;
+using Problema1_1_Carrera.Dominio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -29,6 +30,7 @@ namespace Problema1_1_Carrera.Presentacion
         private void frmAlta_Load(object sender, EventArgs e)
         {
             CargarCombo();
+            cbAsignatura.Enabled = false;
         }
 
         private void CargarCombo()
@@ -54,50 +56,138 @@ namespace Problema1_1_Carrera.Presentacion
 
         private void txtCarrera_TextChanged(object sender, EventArgs e)
         {
-            if(txtCarrera.Text == String.Empty)
+            if(txtCarrera.Text.Length.Equals(0))
             {
                 cbAsignatura.Enabled = false;
+                btnAgregar.Enabled = false;
+            }
+            else
+            {
+                cbAsignatura.Enabled = true;
+            }
+            
+        }
+
+        private bool ValidarCarga()
+        {
+            if(!txtCarrera.Text.Equals(string.Empty) && dgvMaterias.Rows.Count > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 
-        private void ValidarCarga()
+        private bool GuardarCarrera()
         {
+            bool resultado = true;
+            try
+            {
+                Carrera carrera = new (txtCarrera.Text.ToString());
+                carrera.IdCarrera = oConexion.InsertarCarrera(carrera.Nombre);
 
+                foreach (DataGridViewRow fila in dgvMaterias.Rows)
+                {
+                    int id = Convert.ToInt32(fila.Cells[0].Value);
+                    string nom = fila.Cells[1].Value.ToString();
+                    Asignatura materia = new (id, nom);
+
+                    int anio = Convert.ToInt16(fila.Cells[2].Value);
+
+                    int cuat = Convert.ToInt16(fila.Cells[3].Value);
+
+                    DetalleCarrera detCarrera = new (carrera.IdCarrera, materia, anio, cuat);
+
+                    oConexion.InsertarDetalle(detCarrera);
+                }
+            }
+            catch (Exception e)
+            {
+                resultado = false;
+            }
+            return resultado;
+        }
+
+        private void Limpiar()
+        {
+            txtCarrera.Text = String.Empty;
+            cbAsignatura.SelectedIndex = -1;
+            dgvMaterias.Rows.Clear();
+            txtCarrera.Enabled = true;
+            cbAño.SelectedIndex = -1;
+            rbtPrimCuat.Checked = false;
+            rbtSegCuat.Checked = false;
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-
+            if (!ValidarCarga())
+            {
+                MessageBox.Show("Datos invalidos","Validacion", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else
+            {
+                if (GuardarCarrera() is false)
+                {
+                    MessageBox.Show("Error al insertar la carrera", "Carga de datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show("Se cargo exitosamente!", "Carga de datos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Limpiar();
+                }
+            }
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            if(cbAño.SelectedIndex == -1 || (!rbtPrimCuat.Checked && !rbtSegCuat.Checked))
+            {
+                MessageBox.Show("Faltan Datos!","Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                cbAsignatura.SelectedIndex = -1;
+                cbAño.SelectedIndex = -1;
+                rbtPrimCuat.Checked = false;
+                rbtSegCuat.Checked = false;
+                return;
+            }
+
             DataGridViewRow fila = new DataGridViewRow();
             fila.CreateCells(dgvMaterias);
             fila.Cells[0].Value = cbAsignatura.SelectedIndex + 1;
             fila.Cells[1].Value = cbAsignatura.Text;
-
-            if(dgvMaterias.Rows.Count.Equals(0))
+            fila.Cells[2].Value = cbAño.SelectedIndex + 1;
+            if (rbtPrimCuat.Checked)
             {
-                dgvMaterias.Rows.Add(fila);
+                fila.Cells[3].Value = 1;
             }
             else
             {
-                bool existe = true;
+                fila.Cells[3].Value = 2;
+            }
+            
+
+            if (dgvMaterias.Rows.Count.Equals(0))
+            {
+                dgvMaterias.Rows.Add(fila);
+                txtCarrera.Enabled = false;
+            }
+            else
+            {
+                bool existe = false;
+                
                 foreach (DataGridViewRow row in dgvMaterias.Rows)
                 {
-                    
-                    if (row.Cells[0] == fila.Cells[0])
+                    if (Convert.ToInt16(row.Cells[0].Value) == Convert.ToInt16(fila.Cells[0].Value))
                     {
-                        MessageBox.Show("Esta materia ya existe");
+                        MessageBox.Show("Esta materia ya existe, seleccione otra.");
                         existe = true;
                         break;
                     }
-                    else
-                    {
-                        existe = false;
-                        MessageBox.Show("Esta materia no existe " + row.Cells[0].ToString());
-                    }
+                    else { existe = false; }
+
                 }
                 if (existe is false)
                 {
@@ -105,13 +195,23 @@ namespace Problema1_1_Carrera.Presentacion
                 }
             }
 
-            
-
-            MessageBox.Show("reseteo el combo");
             cbAsignatura.SelectedIndex = -1;
-            
-            //falta recorrer el data grid para validar
-            //q no cargue 2 veces la misma materia
+            cbAño.SelectedIndex = -1;
+            rbtPrimCuat.Checked = false;
+            rbtSegCuat.Checked = false;
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            Limpiar();
+        }
+
+        private void txtCarrera_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && (e.KeyChar != (char)Keys.Back) && (e.KeyChar != (char)Keys.Space))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

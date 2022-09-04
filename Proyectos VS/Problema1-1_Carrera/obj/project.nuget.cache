@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OLj2RjDOCPx4pJxhXCD6KQYSvIwOG3zigLsTBG8pXMBT3fVvbAo5JaAMM7KNghkhtFOc7NtA9TDpxeNJSShxdg==",
+  "dgSpecHash": "bwJUZlFIrr91LYa8cBFrkGFyMzl3VHa4NWES1AD+2GwrKJBHO+kFcOyWodBXgicXXM6BWFN/usrIRp2QhkOT0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicoo\\Google Drive\\UTN\\Tecnicatura Programacion\\1° AÑO\\2do SEMESTRE\\PROGRAMACION II\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj",
+  "projectFilePath": "E:\\Biblioteca\\Escritorio\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicoo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\nicoo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

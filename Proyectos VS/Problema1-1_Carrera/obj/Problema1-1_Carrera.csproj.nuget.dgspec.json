@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicoo\\Google Drive\\UTN\\Tecnicatura Programacion\\1° AÑO\\2do SEMESTRE\\PROGRAMACION II\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj": {}
+    "E:\\Biblioteca\\Escritorio\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicoo\\Google Drive\\UTN\\Tecnicatura Programacion\\1° AÑO\\2do SEMESTRE\\PROGRAMACION II\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj": {
+    "E:\\Biblioteca\\Escritorio\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicoo\\Google Drive\\UTN\\Tecnicatura Programacion\\1° AÑO\\2do SEMESTRE\\PROGRAMACION II\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj",
+        "projectUniqueName": "E:\\Biblioteca\\Escritorio\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj",
         "projectName": "Problema1-1_Carrera",
-        "projectPath": "C:\\Users\\nicoo\\Google Drive\\UTN\\Tecnicatura Programacion\\1° AÑO\\2do SEMESTRE\\PROGRAMACION II\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj",
+        "projectPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj",
         "packagesPath": "C:\\Users\\nicoo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicoo\\Google Drive\\UTN\\Tecnicatura Programacion\\1° AÑO\\2do SEMESTRE\\PROGRAMACION II\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\obj\\",
+        "outputPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicoo\\AppData\\Roaming\\NuGet\\NuGet.Config",

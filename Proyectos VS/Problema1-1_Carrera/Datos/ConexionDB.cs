@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Problema1_1_Carrera.Dominio;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -51,21 +52,64 @@ namespace Problema1_1_Carrera.Datos
             return tabla;
         }
 
-        /* -- PENDIENTE --
-         * ¡¡¡ GENERALIZAR PARA HACER UN INSERT, UPDATE, ALTER... !!!
-         * 
-        public int EjecutarSP(string nombre_sp)
+        public int ProximaCarrera()
+        {
+            int proxima;
+            cnn.Open();
+            SqlCommand cmd = new SqlCommand("sp_proximo_nro_carrera", cnn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlParameter param = new SqlParameter("@proximo", SqlDbType.Int);
+            param.Direction = ParameterDirection.Output;
+            cmd.Parameters.Add(param);
+            cmd.ExecuteNonQuery();
+            proxima = Convert.ToInt32(param.Value);
+            cnn.Close();
+            return proxima;
+        }
+
+        public int InsertarCarrera(string carrera)
+        {
+            int id;
+
+            cnn.Open();
+
+            SqlCommand cmd = new SqlCommand("sp_insertar_carrera", cnn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@nombre", carrera);
+
+            SqlParameter param = new SqlParameter("@id_carrera", SqlDbType.Int);
+            param.Direction = ParameterDirection.Output;
+            cmd.Parameters.Add(param);
+
+            cmd.ExecuteNonQuery();
+
+            id = Convert.ToInt32(param.Value);
+
+            cnn.Close();
+
+            return id;
+        }
+        
+        public int InsertarDetalle(DetalleCarrera det)
         {
             int filas;
+
             cnn.Open();
-            cmd = new SqlCommand(nombre_sp, cnn);
+
+            SqlCommand cmd = new SqlCommand("sp_insertar_detalle", cnn);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue();
+
+            cmd.Parameters.AddWithValue("@carrera", det.Id_Carrera);
+            cmd.Parameters.AddWithValue("@asign", det.Asignatura.Id_Asignatura);
+            cmd.Parameters.AddWithValue("@anio", det.Año_Cursado);
+            cmd.Parameters.AddWithValue("@cuat", det.Cuatrimestre);
+
             filas = cmd.ExecuteNonQuery();
+
             cnn.Close();
+
             return filas;
         }
-        */
 
     }
 }

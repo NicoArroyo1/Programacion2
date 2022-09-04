@@ -60,7 +60,7 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -76,14 +76,14 @@
             // buscarCarreraToolStripMenuItem
             // 
             this.buscarCarreraToolStripMenuItem.Name = "buscarCarreraToolStripMenuItem";
-            this.buscarCarreraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.buscarCarreraToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.buscarCarreraToolStripMenuItem.Text = "Buscar Carrera";
             this.buscarCarreraToolStripMenuItem.Click += new System.EventHandler(this.buscarCarreraToolStripMenuItem_Click);
             // 
             // altaCarreraToolStripMenuItem
             // 
             this.altaCarreraToolStripMenuItem.Name = "altaCarreraToolStripMenuItem";
-            this.altaCarreraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.altaCarreraToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.altaCarreraToolStripMenuItem.Text = "Alta Carrera";
             this.altaCarreraToolStripMenuItem.Click += new System.EventHandler(this.altaCarreraToolStripMenuItem_Click);
             // 
@@ -97,6 +97,7 @@
             this.label1.Size = new System.Drawing.Size(522, 75);
             this.label1.TabIndex = 1;
             this.label1.Text = "ABMC - Carrera";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Menu
             // 
@@ -110,6 +111,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menu";
             this.Text = "Menu";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Menu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

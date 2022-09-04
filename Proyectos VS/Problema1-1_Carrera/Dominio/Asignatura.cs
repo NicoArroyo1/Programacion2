@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Problema1_1_Carrera.Dominio
 {
-    internal class Asignatura
+    public class Asignatura
     {
         public int Id_Asignatura { get; set; }
         public string Nombre { get; set; }
 
-        public Asignatura(string nombre)
+        public Asignatura(int id, string nombre)
         {
+            Id_Asignatura = id;
             this.Nombre = nombre;
         }
 

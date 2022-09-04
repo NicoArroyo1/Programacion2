@@ -38,8 +38,15 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.dgvMaterias = new System.Windows.Forms.DataGridView();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.rbtPrimCuat = new System.Windows.Forms.RadioButton();
+            this.rbtSegCuat = new System.Windows.Forms.RadioButton();
+            this.cbAño = new System.Windows.Forms.ComboBox();
+            this.lblAño = new System.Windows.Forms.Label();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMaterias)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,7 +72,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(122, 415);
+            this.btnCancelar.Location = new System.Drawing.Point(175, 415);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 2;
@@ -80,6 +87,7 @@
             this.txtCarrera.Size = new System.Drawing.Size(311, 23);
             this.txtCarrera.TabIndex = 4;
             this.txtCarrera.TextChanged += new System.EventHandler(this.txtCarrera_TextChanged);
+            this.txtCarrera.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCarrera_KeyPress);
             // 
             // label2
             // 
@@ -134,31 +142,113 @@
             this.dgvMaterias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMaterias.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
-            this.Column2});
+            this.Column2,
+            this.Column3,
+            this.Column4});
             this.dgvMaterias.Location = new System.Drawing.Point(438, 52);
             this.dgvMaterias.Name = "dgvMaterias";
             this.dgvMaterias.ReadOnly = true;
             this.dgvMaterias.RowTemplate.Height = 25;
-            this.dgvMaterias.Size = new System.Drawing.Size(350, 386);
+            this.dgvMaterias.Size = new System.Drawing.Size(538, 386);
             this.dgvMaterias.TabIndex = 10;
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(94, 415);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.TabIndex = 11;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
+            // rbtPrimCuat
+            // 
+            this.rbtPrimCuat.AutoSize = true;
+            this.rbtPrimCuat.Location = new System.Drawing.Point(119, 251);
+            this.rbtPrimCuat.Name = "rbtPrimCuat";
+            this.rbtPrimCuat.Size = new System.Drawing.Size(131, 19);
+            this.rbtPrimCuat.TabIndex = 12;
+            this.rbtPrimCuat.TabStop = true;
+            this.rbtPrimCuat.Text = "Primer Cuatrimestre";
+            this.rbtPrimCuat.UseVisualStyleBackColor = true;
+            // 
+            // rbtSegCuat
+            // 
+            this.rbtSegCuat.AutoSize = true;
+            this.rbtSegCuat.Location = new System.Drawing.Point(119, 276);
+            this.rbtSegCuat.Name = "rbtSegCuat";
+            this.rbtSegCuat.Size = new System.Drawing.Size(143, 19);
+            this.rbtSegCuat.TabIndex = 13;
+            this.rbtSegCuat.TabStop = true;
+            this.rbtSegCuat.Text = "Segundo Cuatrimestre";
+            this.rbtSegCuat.UseVisualStyleBackColor = true;
+            // 
+            // cbAño
+            // 
+            this.cbAño.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAño.FormattingEnabled = true;
+            this.cbAño.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.cbAño.Location = new System.Drawing.Point(10, 271);
+            this.cbAño.Name = "cbAño";
+            this.cbAño.Size = new System.Drawing.Size(62, 23);
+            this.cbAño.TabIndex = 14;
+            // 
+            // lblAño
+            // 
+            this.lblAño.AutoSize = true;
+            this.lblAño.Location = new System.Drawing.Point(10, 253);
+            this.lblAño.Name = "lblAño";
+            this.lblAño.Size = new System.Drawing.Size(29, 15);
+            this.lblAño.TabIndex = 15;
+            this.lblAño.Text = "Año";
             // 
             // Column1
             // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column1.HeaderText = "Codigo";
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
+            this.Column1.Width = 71;
             // 
             // Column2
             // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column2.HeaderText = "Materia";
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
+            this.Column2.Width = 72;
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.Column3.HeaderText = "Año";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 54;
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.Column4.HeaderText = "Cuatrimestre";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
             // 
             // frmAlta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(989, 450);
+            this.Controls.Add(this.lblAño);
+            this.Controls.Add(this.cbAño);
+            this.Controls.Add(this.rbtSegCuat);
+            this.Controls.Add(this.rbtPrimCuat);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.dgvMaterias);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnAgregar);
@@ -170,6 +260,7 @@
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.label1);
             this.Name = "frmAlta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alta de Carrera";
             this.Load += new System.EventHandler(this.frmAlta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMaterias)).EndInit();
@@ -190,7 +281,14 @@
         private Button btnAgregar;
         private Label label4;
         private DataGridView dgvMaterias;
+        private Button btnLimpiar;
+        private RadioButton rbtPrimCuat;
+        private RadioButton rbtSegCuat;
+        private ComboBox cbAño;
+        private Label lblAño;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
     }
 }
