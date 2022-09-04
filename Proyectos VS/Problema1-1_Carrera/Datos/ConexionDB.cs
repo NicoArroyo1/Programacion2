@@ -15,7 +15,7 @@ namespace Problema1_1_Carrera.Datos
         public ConexionDB()
         {
             cnn = new SqlConnection();
-            cnn.ConnectionString = Properties.Resources.CadenaConexion1;
+            cnn.ConnectionString = Properties.Resources.CadenaConexion;
         }
 
         public DataTable SPConsulta(string nombreSP)

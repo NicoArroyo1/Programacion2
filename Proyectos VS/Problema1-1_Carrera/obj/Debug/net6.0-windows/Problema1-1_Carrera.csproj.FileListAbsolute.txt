@@ -102,3 +102,30 @@ C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Proble
 C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.genruntimeconfig.cache
 C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\ref\Problema1-1_Carrera.dll
 C:\Users\20418473593\Desktop\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.frmAlta.resources
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.exe
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.deps.json
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.runtimeconfig.json
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.dll
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\Problema1-1_Carrera.pdb
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.AssemblyReference.cache
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.frmAlta.resources
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.Buscar.resources
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Presentacion.Menu.resources
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1_1_Carrera.Properties.Resources.resources
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.GenerateResource.cache
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.AssemblyInfoInputs.cache
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.AssemblyInfo.cs
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.CoreCompileInputs.cache
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.csproj.CopyComplete
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.dll
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\refint\Problema1-1_Carrera.dll
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.pdb
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\Problema1-1_Carrera.genruntimeconfig.cache
+C:\Users\nicoo\Google Drive\UTN\Tecnicatura Programacion\1° AÑO\2do SEMESTRE\PROGRAMACION II\GitHub\Programacion2\Proyectos VS\Problema1-1_Carrera\obj\Debug\net6.0-windows\ref\Problema1-1_Carrera.dll

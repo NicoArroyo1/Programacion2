@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.DirectoryServices.ActiveDirectory;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -75,10 +76,40 @@ namespace Problema1_1_Carrera.Presentacion
             fila.CreateCells(dgvMaterias);
             fila.Cells[0].Value = cbAsignatura.SelectedIndex + 1;
             fila.Cells[1].Value = cbAsignatura.Text;
-            dgvMaterias.Rows.Add(fila);
 
+            if(dgvMaterias.Rows.Count.Equals(0))
+            {
+                dgvMaterias.Rows.Add(fila);
+            }
+            else
+            {
+                bool existe = true;
+                foreach (DataGridViewRow row in dgvMaterias.Rows)
+                {
+                    
+                    if (row.Cells[0] == fila.Cells[0])
+                    {
+                        MessageBox.Show("Esta materia ya existe");
+                        existe = true;
+                        break;
+                    }
+                    else
+                    {
+                        existe = false;
+                        MessageBox.Show("Esta materia no existe " + row.Cells[0].ToString());
+                    }
+                }
+                if (existe is false)
+                {
+                    dgvMaterias.Rows.Add(fila);
+                }
+            }
+
+            
+
+            MessageBox.Show("reseteo el combo");
             cbAsignatura.SelectedIndex = -1;
-
+            
             //falta recorrer el data grid para validar
             //q no cargue 2 veces la misma materia
         }
