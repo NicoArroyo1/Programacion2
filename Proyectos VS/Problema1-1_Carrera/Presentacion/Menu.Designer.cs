@@ -45,7 +45,7 @@
             this.accionesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(675, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1236, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -91,10 +91,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(81, 84);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(366, 156);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(522, 75);
+            this.label1.Size = new System.Drawing.Size(524, 77);
             this.label1.TabIndex = 1;
             this.label1.Text = "ABMC - Carrera";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -103,8 +105,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Problema1_1_Carrera.Properties.Resources.fondo_difuminado;
-            this.ClientSize = new System.Drawing.Size(675, 241);
+            this.BackgroundImage = global::Problema1_1_Carrera.Properties.Resources.fondo_academico;
+            this.ClientSize = new System.Drawing.Size(1236, 345);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;

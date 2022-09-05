@@ -38,25 +38,26 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.dgvMaterias = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.rbtPrimCuat = new System.Windows.Forms.RadioButton();
             this.rbtSegCuat = new System.Windows.Forms.RadioButton();
             this.cbAño = new System.Windows.Forms.ComboBox();
             this.lblAño = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMaterias)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(10, 9);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Rockwell", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(10, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(290, 40);
+            this.label1.Size = new System.Drawing.Size(366, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "Alta de Carrera";
             // 
@@ -82,7 +83,7 @@
             // 
             // txtCarrera
             // 
-            this.txtCarrera.Location = new System.Drawing.Point(98, 91);
+            this.txtCarrera.Location = new System.Drawing.Point(119, 91);
             this.txtCarrera.Name = "txtCarrera";
             this.txtCarrera.Size = new System.Drawing.Size(311, 23);
             this.txtCarrera.TabIndex = 4;
@@ -92,9 +93,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 94);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(16, 92);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 15);
+            this.label2.Size = new System.Drawing.Size(97, 19);
             this.label2.TabIndex = 5;
             this.label2.Text = "Nueva Carrera";
             // 
@@ -111,9 +115,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 185);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(10, 190);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 15);
+            this.label3.Size = new System.Drawing.Size(148, 19);
             this.label3.TabIndex = 7;
             this.label3.Text = "Seleccione una materia";
             // 
@@ -130,9 +137,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(438, 34);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(438, 30);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 15);
+            this.label4.Size = new System.Drawing.Size(62, 19);
             this.label4.TabIndex = 9;
             this.label4.Text = "Materias";
             // 
@@ -151,62 +161,6 @@
             this.dgvMaterias.RowTemplate.Height = 25;
             this.dgvMaterias.Size = new System.Drawing.Size(538, 386);
             this.dgvMaterias.TabIndex = 10;
-            // 
-            // btnLimpiar
-            // 
-            this.btnLimpiar.Location = new System.Drawing.Point(94, 415);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
-            this.btnLimpiar.TabIndex = 11;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
-            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
-            // 
-            // rbtPrimCuat
-            // 
-            this.rbtPrimCuat.AutoSize = true;
-            this.rbtPrimCuat.Location = new System.Drawing.Point(119, 251);
-            this.rbtPrimCuat.Name = "rbtPrimCuat";
-            this.rbtPrimCuat.Size = new System.Drawing.Size(131, 19);
-            this.rbtPrimCuat.TabIndex = 12;
-            this.rbtPrimCuat.TabStop = true;
-            this.rbtPrimCuat.Text = "Primer Cuatrimestre";
-            this.rbtPrimCuat.UseVisualStyleBackColor = true;
-            // 
-            // rbtSegCuat
-            // 
-            this.rbtSegCuat.AutoSize = true;
-            this.rbtSegCuat.Location = new System.Drawing.Point(119, 276);
-            this.rbtSegCuat.Name = "rbtSegCuat";
-            this.rbtSegCuat.Size = new System.Drawing.Size(143, 19);
-            this.rbtSegCuat.TabIndex = 13;
-            this.rbtSegCuat.TabStop = true;
-            this.rbtSegCuat.Text = "Segundo Cuatrimestre";
-            this.rbtSegCuat.UseVisualStyleBackColor = true;
-            // 
-            // cbAño
-            // 
-            this.cbAño.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbAño.FormattingEnabled = true;
-            this.cbAño.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.cbAño.Location = new System.Drawing.Point(10, 271);
-            this.cbAño.Name = "cbAño";
-            this.cbAño.Size = new System.Drawing.Size(62, 23);
-            this.cbAño.TabIndex = 14;
-            // 
-            // lblAño
-            // 
-            this.lblAño.AutoSize = true;
-            this.lblAño.Location = new System.Drawing.Point(10, 253);
-            this.lblAño.Name = "lblAño";
-            this.lblAño.Size = new System.Drawing.Size(29, 15);
-            this.lblAño.TabIndex = 15;
-            this.lblAño.Text = "Año";
             // 
             // Column1
             // 
@@ -239,10 +193,76 @@
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(94, 415);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.TabIndex = 11;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
+            // rbtPrimCuat
+            // 
+            this.rbtPrimCuat.AutoSize = true;
+            this.rbtPrimCuat.BackColor = System.Drawing.Color.Transparent;
+            this.rbtPrimCuat.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rbtPrimCuat.ForeColor = System.Drawing.Color.White;
+            this.rbtPrimCuat.Location = new System.Drawing.Point(119, 251);
+            this.rbtPrimCuat.Name = "rbtPrimCuat";
+            this.rbtPrimCuat.Size = new System.Drawing.Size(150, 23);
+            this.rbtPrimCuat.TabIndex = 12;
+            this.rbtPrimCuat.TabStop = true;
+            this.rbtPrimCuat.Text = "Primer Cuatrimestre";
+            this.rbtPrimCuat.UseVisualStyleBackColor = false;
+            // 
+            // rbtSegCuat
+            // 
+            this.rbtSegCuat.AutoSize = true;
+            this.rbtSegCuat.BackColor = System.Drawing.Color.Transparent;
+            this.rbtSegCuat.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rbtSegCuat.ForeColor = System.Drawing.Color.White;
+            this.rbtSegCuat.Location = new System.Drawing.Point(119, 280);
+            this.rbtSegCuat.Name = "rbtSegCuat";
+            this.rbtSegCuat.Size = new System.Drawing.Size(164, 23);
+            this.rbtSegCuat.TabIndex = 13;
+            this.rbtSegCuat.TabStop = true;
+            this.rbtSegCuat.Text = "Segundo Cuatrimestre";
+            this.rbtSegCuat.UseVisualStyleBackColor = false;
+            // 
+            // cbAño
+            // 
+            this.cbAño.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAño.FormattingEnabled = true;
+            this.cbAño.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.cbAño.Location = new System.Drawing.Point(10, 271);
+            this.cbAño.Name = "cbAño";
+            this.cbAño.Size = new System.Drawing.Size(62, 23);
+            this.cbAño.TabIndex = 14;
+            // 
+            // lblAño
+            // 
+            this.lblAño.AutoSize = true;
+            this.lblAño.BackColor = System.Drawing.Color.Transparent;
+            this.lblAño.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblAño.ForeColor = System.Drawing.Color.White;
+            this.lblAño.Location = new System.Drawing.Point(10, 249);
+            this.lblAño.Name = "lblAño";
+            this.lblAño.Size = new System.Drawing.Size(34, 19);
+            this.lblAño.TabIndex = 15;
+            this.lblAño.Text = "Año";
+            // 
             // frmAlta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Problema1_1_Carrera.Properties.Resources.fondo_difuminado;
             this.ClientSize = new System.Drawing.Size(989, 450);
             this.Controls.Add(this.lblAño);
             this.Controls.Add(this.cbAño);
