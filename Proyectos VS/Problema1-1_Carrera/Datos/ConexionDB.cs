@@ -16,7 +16,7 @@ namespace Problema1_1_Carrera.Datos
         public ConexionDB()
         {
             cnn = new SqlConnection();
-            cnn.ConnectionString = Properties.Resources.CadenaConexion;
+            cnn.ConnectionString = Properties.Resources.CadenaConexion1;
         }
 
         public DataTable SPConsulta(string nombreSP)
@@ -67,44 +67,73 @@ namespace Problema1_1_Carrera.Datos
             return proxima;
         }
 
-        public int InsertarCarrera(string carrera)
+        public int InsertarCarrera(string carrera, DataGridView dgvMaterias)
         {
-            int id;
 
-            cnn.Open();
+            SqlTransaction t = null;
+            t = cnn.BeginTransaction();
 
-            SqlCommand cmd = new SqlCommand("sp_insertar_carrera", cnn);
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@nombre", carrera);
+            int id = -1;
+            try
+            {
+                cnn.Open();
 
-            SqlParameter param = new SqlParameter("@id_carrera", SqlDbType.Int);
-            param.Direction = ParameterDirection.Output;
-            cmd.Parameters.Add(param);
+                SqlCommand cmd = new SqlCommand("sp_insertar_carrera", cnn, t);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@nombre", carrera);
 
-            cmd.ExecuteNonQuery();
+                SqlParameter param = new SqlParameter("@id_carrera", SqlDbType.Int);
+                param.Direction = ParameterDirection.Output;
+                cmd.Parameters.Add(param);
 
-            id = Convert.ToInt32(param.Value);
+                cmd.ExecuteNonQuery();
 
-            cnn.Close();
+                id = Convert.ToInt32(param.Value);
+
+                foreach (DataGridViewRow fila in dgvMaterias.Rows)
+                {
+                    int cod = Convert.ToInt32(fila.Cells[0].Value);
+                    string nom = fila.Cells[1].Value.ToString();
+                    Asignatura materia = new(cod, nom);
+
+                    int anio = Convert.ToInt16(fila.Cells[2].Value);
+
+                    int cuat = Convert.ToInt16(fila.Cells[3].Value);
+
+                    DetalleCarrera detCarrera = new(id, materia, anio, cuat);
+
+                    this.InsertarDetalle(detCarrera, t);
+                }
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show("Erro al intentar cargar los datos", "Carga de datos", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                t.Commit();
+            }
+            finally
+            {
+                cnn.Close();
+            }
 
             return id;
+
         }
         
-        public int InsertarDetalle(DetalleCarrera det)
+        public int InsertarDetalle(DetalleCarrera det, SqlTransaction t)
         {
             int filas;
 
             cnn.Open();
 
-            SqlCommand cmd = new SqlCommand("sp_insertar_detalle", cnn);
-            cmd.CommandType = CommandType.StoredProcedure;
+            SqlCommand cmdDet = new SqlCommand("sp_insertar_detalle", cnn, t);
+            cmdDet.CommandType = CommandType.StoredProcedure;
 
-            cmd.Parameters.AddWithValue("@carrera", det.Id_Carrera);
-            cmd.Parameters.AddWithValue("@asign", det.Asignatura.Id_Asignatura);
-            cmd.Parameters.AddWithValue("@anio", det.Año_Cursado);
-            cmd.Parameters.AddWithValue("@cuat", det.Cuatrimestre);
+            cmdDet.Parameters.AddWithValue("@carrera", det.Id_Carrera);
+            cmdDet.Parameters.AddWithValue("@asign", det.Asignatura.Id_Asignatura);
+            cmdDet.Parameters.AddWithValue("@anio", det.Año_Cursado);
+            cmdDet.Parameters.AddWithValue("@cuat", det.Cuatrimestre);
 
-            filas = cmd.ExecuteNonQuery();
+            filas = cmdDet.ExecuteNonQuery();
 
             cnn.Close();
 

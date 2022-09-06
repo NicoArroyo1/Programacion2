@@ -706,19 +706,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicoo\\.nuget\\packages\\": {}
+    "C:\\Users\\20418473593\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Biblioteca\\Escritorio\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj",
+      "projectUniqueName": "C:\\Users\\20418473593\\Desktop\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj",
       "projectName": "Problema1-1_Carrera",
-      "projectPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj",
-      "packagesPath": "C:\\Users\\nicoo\\.nuget\\packages\\",
-      "outputPath": "E:\\Biblioteca\\Escritorio\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\obj\\",
+      "projectPath": "C:\\Users\\20418473593\\Desktop\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\Problema1-1_Carrera.csproj",
+      "packagesPath": "C:\\Users\\20418473593\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\20418473593\\Desktop\\GitHub\\Programacion2\\Proyectos VS\\Problema1-1_Carrera\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nicoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\20418473593\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -83,27 +83,10 @@ namespace Problema1_1_Carrera.Presentacion
         private bool GuardarCarrera()
         {
             bool resultado = true;
-            try
-            {
-                Carrera carrera = new (txtCarrera.Text.ToString());
-                carrera.IdCarrera = oConexion.InsertarCarrera(carrera.Nombre);
-
-                foreach (DataGridViewRow fila in dgvMaterias.Rows)
-                {
-                    int id = Convert.ToInt32(fila.Cells[0].Value);
-                    string nom = fila.Cells[1].Value.ToString();
-                    Asignatura materia = new (id, nom);
-
-                    int anio = Convert.ToInt16(fila.Cells[2].Value);
-
-                    int cuat = Convert.ToInt16(fila.Cells[3].Value);
-
-                    DetalleCarrera detCarrera = new (carrera.IdCarrera, materia, anio, cuat);
-
-                    oConexion.InsertarDetalle(detCarrera);
-                }
-            }
-            catch (Exception e)
+            
+            Carrera carrera = new (txtCarrera.Text);
+            carrera.IdCarrera = oConexion.InsertarCarrera(carrera.Nombre, dgvMaterias);
+            if(carrera.IdCarrera == -1)
             {
                 resultado = false;
             }
