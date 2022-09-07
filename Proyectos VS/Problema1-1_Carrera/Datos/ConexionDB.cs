@@ -16,7 +16,7 @@ namespace Problema1_1_Carrera.Datos
         public ConexionDB()
         {
             cnn = new SqlConnection();
-            cnn.ConnectionString = Properties.Resources.CadenaConexion1;
+            cnn.ConnectionString = Properties.Resources.CadenaConexion2;
         }
 
         public DataTable SPConsulta(string nombreSP)
@@ -105,11 +105,12 @@ namespace Problema1_1_Carrera.Datos
             }
             catch(Exception e)
             {
-                MessageBox.Show("Erro al intentar cargar los datos", "Carga de datos", MessageBoxButtons.OK,MessageBoxIcon.Error);
-                t.Commit();
+                MessageBox.Show("Error al intentar cargar los datos", "Carga de datos", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                t.Rollback();
             }
             finally
             {
+                t.Commit();
                 cnn.Close();
             }
 

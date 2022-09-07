@@ -79,6 +79,15 @@ namespace Problema1_1_Carrera.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Data Source=sqlgabineteinformatico.frc.utn.edu.ar;Initial Catalog=PII_U1_Ej1_Carrera;User ID=alumnolab22;Password=SQL-Alu22.
+        /// </summary>
+        internal static string CadenaConexion2 {
+            get {
+                return ResourceManager.GetString("CadenaConexion2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap fondo_academico {
