@@ -69,15 +69,13 @@ namespace Problema1_1_Carrera.Datos
 
         public int InsertarCarrera(string carrera, DataGridView dgvMaterias)
         {
-
+            cnn.Open();
             SqlTransaction t = null;
             t = cnn.BeginTransaction();
 
             int id = -1;
             try
             {
-                cnn.Open();
-
                 SqlCommand cmd = new SqlCommand("sp_insertar_carrera", cnn, t);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@nombre", carrera);
