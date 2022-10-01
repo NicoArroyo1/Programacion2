@@ -32,7 +32,7 @@ namespace RecetasSLN
             this.lblNro = new System.Windows.Forms.Label();
             this.txtCheff = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.cboProducto = new System.Windows.Forms.ComboBox();
+            this.cboIngrediente = new System.Windows.Forms.ComboBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.dgvDetalles = new System.Windows.Forms.DataGridView();
             this.detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,9 +57,9 @@ namespace RecetasSLN
             this.lblNro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNro.Location = new System.Drawing.Point(91, 9);
             this.lblNro.Name = "lblNro";
-            this.lblNro.Size = new System.Drawing.Size(102, 20);
+            this.lblNro.Size = new System.Drawing.Size(92, 20);
             this.lblNro.TabIndex = 0;
-            this.lblNro.Text = "Receta #: 1";
+            this.lblNro.Text = "Receta #: ";
             // 
             // txtCheff
             // 
@@ -77,13 +77,13 @@ namespace RecetasSLN
             this.label3.TabIndex = 3;
             this.label3.Text = "Cheff:";
             // 
-            // cboProducto
+            // cboIngrediente
             // 
-            this.cboProducto.FormattingEnabled = true;
-            this.cboProducto.Location = new System.Drawing.Point(25, 147);
-            this.cboProducto.Name = "cboProducto";
-            this.cboProducto.Size = new System.Drawing.Size(213, 21);
-            this.cboProducto.TabIndex = 7;
+            this.cboIngrediente.FormattingEnabled = true;
+            this.cboIngrediente.Location = new System.Drawing.Point(25, 147);
+            this.cboIngrediente.Name = "cboIngrediente";
+            this.cboIngrediente.Size = new System.Drawing.Size(213, 21);
+            this.cboIngrediente.TabIndex = 7;
             // 
             // btnAgregar
             // 
@@ -152,7 +152,7 @@ namespace RecetasSLN
             this.btnAceptar.Location = new System.Drawing.Point(186, 367);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
-            this.btnAceptar.TabIndex = 11;
+            this.btnAceptar.TabIndex = 12;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -162,13 +162,19 @@ namespace RecetasSLN
             this.btnCancelar.Location = new System.Drawing.Point(265, 367);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 12;
+            this.btnCancelar.TabIndex = 13;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // nudCantidad
             // 
+            this.nudCantidad.DecimalPlaces = 2;
+            this.nudCantidad.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.nudCantidad.Location = new System.Drawing.Point(242, 148);
             this.nudCantidad.Margin = new System.Windows.Forms.Padding(2);
             this.nudCantidad.Minimum = new decimal(new int[] {
@@ -178,7 +184,7 @@ namespace RecetasSLN
             0});
             this.nudCantidad.Name = "nudCantidad";
             this.nudCantidad.Size = new System.Drawing.Size(136, 20);
-            this.nudCantidad.TabIndex = 13;
+            this.nudCantidad.TabIndex = 8;
             this.nudCantidad.Value = new decimal(new int[] {
             1,
             0,
@@ -189,16 +195,20 @@ namespace RecetasSLN
             // 
             this.cboTipo.FormattingEnabled = true;
             this.cboTipo.Items.AddRange(new object[] {
-            "1-Comida china",
-            "2-Comida rápida",
-            "3-Comida tradicional",
-            "4-Pastas",
-            "5-Recetas de carne",
-            "6-Recetas de mariscos"});
+            "Ensaladas",
+            "Mariscos",
+            "Asiática",
+            "Rápidas",
+            "Tradicional",
+            "Pasta",
+            "Carnes",
+            "Diabéticos",
+            "Postres",
+            "Dietetica"});
             this.cboTipo.Location = new System.Drawing.Point(95, 102);
             this.cboTipo.Name = "cboTipo";
             this.cboTipo.Size = new System.Drawing.Size(199, 21);
-            this.cboTipo.TabIndex = 17;
+            this.cboTipo.TabIndex = 6;
             // 
             // label1
             // 
@@ -206,7 +216,7 @@ namespace RecetasSLN
             this.label1.Location = new System.Drawing.Point(12, 105);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 13);
-            this.label1.TabIndex = 18;
+            this.label1.TabIndex = 5;
             this.label1.Text = "Tipo de receta:";
             // 
             // txtNombre
@@ -214,7 +224,7 @@ namespace RecetasSLN
             this.txtNombre.Location = new System.Drawing.Point(95, 50);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(310, 20);
-            this.txtNombre.TabIndex = 20;
+            this.txtNombre.TabIndex = 2;
             // 
             // label2
             // 
@@ -222,7 +232,7 @@ namespace RecetasSLN
             this.label2.Location = new System.Drawing.Point(44, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 13);
-            this.label2.TabIndex = 19;
+            this.label2.TabIndex = 1;
             this.label2.Text = "Nombre:";
             // 
             // lblTotalIngredientes
@@ -232,10 +242,10 @@ namespace RecetasSLN
             this.lblTotalIngredientes.Location = new System.Drawing.Point(312, 329);
             this.lblTotalIngredientes.Name = "lblTotalIngredientes";
             this.lblTotalIngredientes.Size = new System.Drawing.Size(125, 15);
-            this.lblTotalIngredientes.TabIndex = 21;
+            this.lblTotalIngredientes.TabIndex = 11;
             this.lblTotalIngredientes.Text = "Total de ingredientes:";
             // 
-            // Frm_Alta
+            // FrmAltaReceta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -250,15 +260,16 @@ namespace RecetasSLN
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.dgvDetalles);
             this.Controls.Add(this.btnAgregar);
-            this.Controls.Add(this.cboProducto);
+            this.Controls.Add(this.cboIngrediente);
             this.Controls.Add(this.txtCheff);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblNro);
             this.MaximumSize = new System.Drawing.Size(537, 434);
             this.MinimumSize = new System.Drawing.Size(537, 434);
-            this.Name = "Frm_Alta";
+            this.Name = "FrmAltaReceta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alta de recetas";
+            this.Load += new System.EventHandler(this.FrmAltaReceta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
             this.ResumeLayout(false);
@@ -271,7 +282,7 @@ namespace RecetasSLN
         private System.Windows.Forms.Label lblNro;
         private System.Windows.Forms.TextBox txtCheff;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cboProducto;
+        private System.Windows.Forms.ComboBox cboIngrediente;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.DataGridView dgvDetalles;
         private System.Windows.Forms.Button btnAceptar;

@@ -29,3 +29,4 @@ E:\Biblioteca\Escritorio\GitHub\Programacion2\Proyectos VS\Actividad 06\Alta_rec
 E:\Biblioteca\Escritorio\GitHub\Programacion2\Proyectos VS\Actividad 06\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.CoreCompileInputs.cache
 E:\Biblioteca\Escritorio\GitHub\Programacion2\Proyectos VS\Actividad 06\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.exe
 E:\Biblioteca\Escritorio\GitHub\Programacion2\Proyectos VS\Actividad 06\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb
+E:\Biblioteca\Escritorio\GitHub\Programacion2\Proyectos VS\Actividad 06\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.FrmAltaReceta.resources

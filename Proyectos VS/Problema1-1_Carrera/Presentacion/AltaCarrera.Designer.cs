@@ -68,7 +68,7 @@
             this.btnAceptar.Location = new System.Drawing.Point(13, 415);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
-            this.btnAceptar.TabIndex = 1;
+            this.btnAceptar.TabIndex = 10;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -78,7 +78,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(175, 415);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 2;
+            this.btnCancelar.TabIndex = 12;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.button2_Click);
@@ -88,7 +88,7 @@
             this.txtCarrera.Location = new System.Drawing.Point(119, 91);
             this.txtCarrera.Name = "txtCarrera";
             this.txtCarrera.Size = new System.Drawing.Size(311, 23);
-            this.txtCarrera.TabIndex = 4;
+            this.txtCarrera.TabIndex = 2;
             this.txtCarrera.TextChanged += new System.EventHandler(this.txtCarrera_TextChanged);
             this.txtCarrera.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCarrera_KeyPress);
             // 
@@ -101,7 +101,7 @@
             this.label2.Location = new System.Drawing.Point(16, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 19);
-            this.label2.TabIndex = 5;
+            this.label2.TabIndex = 1;
             this.label2.Text = "Nueva Carrera";
             // 
             // cbAsignatura
@@ -111,7 +111,7 @@
             this.cbAsignatura.Location = new System.Drawing.Point(10, 212);
             this.cbAsignatura.Name = "cbAsignatura";
             this.cbAsignatura.Size = new System.Drawing.Size(292, 23);
-            this.cbAsignatura.TabIndex = 6;
+            this.cbAsignatura.TabIndex = 4;
             this.cbAsignatura.SelectedIndexChanged += new System.EventHandler(this.cbAsignatura_SelectedIndexChanged);
             // 
             // label3
@@ -123,7 +123,7 @@
             this.label3.Location = new System.Drawing.Point(10, 190);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(148, 19);
-            this.label3.TabIndex = 7;
+            this.label3.TabIndex = 3;
             this.label3.Text = "Seleccione una materia";
             // 
             // btnAgregar
@@ -131,7 +131,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(322, 212);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 8;
+            this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -145,7 +145,7 @@
             this.label4.Location = new System.Drawing.Point(438, 30);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 19);
-            this.label4.TabIndex = 9;
+            this.label4.TabIndex = 13;
             this.label4.Text = "Materias";
             // 
             // dgvMaterias
@@ -162,7 +162,7 @@
             this.dgvMaterias.ReadOnly = true;
             this.dgvMaterias.RowTemplate.Height = 25;
             this.dgvMaterias.Size = new System.Drawing.Size(538, 386);
-            this.dgvMaterias.TabIndex = 10;
+            this.dgvMaterias.TabIndex = 14;
             // 
             // Column1
             // 
@@ -214,7 +214,7 @@
             this.rbtPrimCuat.Location = new System.Drawing.Point(119, 251);
             this.rbtPrimCuat.Name = "rbtPrimCuat";
             this.rbtPrimCuat.Size = new System.Drawing.Size(150, 23);
-            this.rbtPrimCuat.TabIndex = 12;
+            this.rbtPrimCuat.TabIndex = 8;
             this.rbtPrimCuat.TabStop = true;
             this.rbtPrimCuat.Text = "Primer Cuatrimestre";
             this.rbtPrimCuat.UseVisualStyleBackColor = false;
@@ -228,7 +228,7 @@
             this.rbtSegCuat.Location = new System.Drawing.Point(119, 280);
             this.rbtSegCuat.Name = "rbtSegCuat";
             this.rbtSegCuat.Size = new System.Drawing.Size(164, 23);
-            this.rbtSegCuat.TabIndex = 13;
+            this.rbtSegCuat.TabIndex = 9;
             this.rbtSegCuat.TabStop = true;
             this.rbtSegCuat.Text = "Segundo Cuatrimestre";
             this.rbtSegCuat.UseVisualStyleBackColor = false;
@@ -246,7 +246,7 @@
             this.cbAño.Location = new System.Drawing.Point(10, 271);
             this.cbAño.Name = "cbAño";
             this.cbAño.Size = new System.Drawing.Size(62, 23);
-            this.cbAño.TabIndex = 14;
+            this.cbAño.TabIndex = 7;
             // 
             // lblAño
             // 
@@ -257,7 +257,7 @@
             this.lblAño.Location = new System.Drawing.Point(10, 249);
             this.lblAño.Name = "lblAño";
             this.lblAño.Size = new System.Drawing.Size(34, 19);
-            this.lblAño.TabIndex = 15;
+            this.lblAño.TabIndex = 6;
             this.lblAño.Text = "Año";
             // 
             // frmAlta

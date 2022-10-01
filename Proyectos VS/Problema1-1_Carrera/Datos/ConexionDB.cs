@@ -77,11 +77,15 @@ namespace Problema1_1_Carrera.Datos
             try
             {
                 SqlCommand cmd = new SqlCommand("sp_insertar_carrera", cnn, t);
+
                 cmd.CommandType = CommandType.StoredProcedure;
+
                 cmd.Parameters.AddWithValue("@nombre", carrera);
 
                 SqlParameter param = new SqlParameter("@id_carrera", SqlDbType.Int);
+
                 param.Direction = ParameterDirection.Output;
+
                 cmd.Parameters.Add(param);
 
                 cmd.ExecuteNonQuery();
@@ -91,7 +95,9 @@ namespace Problema1_1_Carrera.Datos
                 foreach (DataGridViewRow fila in dgvMaterias.Rows)
                 {
                     int cod = Convert.ToInt32(fila.Cells[0].Value);
+
                     string nom = fila.Cells[1].Value.ToString();
+
                     Asignatura materia = new(cod, nom);
 
                     int anio = Convert.ToInt16(fila.Cells[2].Value);
